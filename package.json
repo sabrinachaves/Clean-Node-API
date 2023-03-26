@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install",
+    "test:staged": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sabrina Chaves",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.0",
